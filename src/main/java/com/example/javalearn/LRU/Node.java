@@ -28,6 +28,7 @@ public class Node {
         this.value = value;
     }
     private void add(Node node){
+        curSize++;
 
     }
 }

@@ -19,7 +19,7 @@ public class ThreadLocalDemo0907 {
 
 
     public static void main(String[] args) {
-        RLock lock = redisson.getLock("");
+        //RLock lock = redisson.getLock("");
 
         ReentrantLock reentrantLock = new ReentrantLock(true);
 
